@@ -17,6 +17,7 @@ const Call = () => {
       });
       const data = await response.json();
       console.log(data);
+      alert("Made a Call, Check your phone");
       setLoading(false);
     } catch (error) {
       console.log(error);
